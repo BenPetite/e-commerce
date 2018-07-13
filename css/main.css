@@ -97,25 +97,17 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* nav */
-nav{
-  background-color: grey;
-}
-/* header */
-header{
-  background-color: green;
-}
-/* main */
-main{
-  background-color: yellow;
-}
-section{
-  border-radius: 1px;
-}
-/* footer */
-footer{
-  background-color: grey;
-}
+/* global classes */
+
+/* common rules */
+
+/* start nav */
+
+/* start header */
+
+/* start footer */
+
+/* start main */
 
 
 

@@ -32,7 +32,7 @@ include "templates/header.php";
     "titre" => "site e-commerce",
     "sous-titre" => "vente de choses par correspondance",
     "auteur" => "Benoît Petite",
-    "date" => "juillet 2018",
+    "date de création" => "juillet 2018",
   );
   foreach ($infosSite as $key => $value):
     echo $key." : ".$value."<br/>";
