@@ -8,7 +8,7 @@
   <title>accueil</title>
   <meta name="description" content="exercice de site e-commerce">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
@@ -27,54 +27,54 @@
   include "templates/nav.php";
   include "templates/header.php";
    ?>
-  <main class="catalogue">
+  <main>
     <?php include "products.php";
    ?>
   <!-- présentation des produits -->
-    <div class="card d-flex flex-wrap" style="width: 18rem;">
+    <div class="carte"> <!--class="card d-flex flex-wrap" style="width: 18rem;"> -->
       <div class="card-body">
-        <h5 class="card-title"><?php  echo $products[0]["name"];?> </h5>
-        <h6 class="card-subtitle mb-2 text-muted"><?php  echo $products[0]["category"];?></h6>
+        <h5 class="card-title text-center"><?php  echo $products[0]["name"];?> </h5>
+        <h6 class="card-subtitle mb-2 text-muted text-center"><?php  echo $products[0]["category"];?></h6>
         <p class="card-text"><?php  echo $products[0]["description"];?></p>
         <p><?php echo $products[0]["price"]?> €</p>
         <a href="presentation.php" class="card-link">présentation du produit</a>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="carte"> <!--class="card" style="width: 18rem;">-->
         <div class="card-body">
-          <h5 class="card-title"><?php  echo $products[1]["name"];?> </h5>
-          <h6 class="card-subtitle mb-2 text-muted"><?php  echo $products[1]["category"];?></h6>
+          <h5 class="card-title text-center"><?php  echo $products[1]["name"];?> </h5>
+          <h6 class="card-subtitle mb-2 text-muted text-center"><?php  echo $products[1]["category"];?></h6>
           <p class="card-text"><?php  echo $products[1]["description"];?></p>
           <p><?php echo $products[1]["price"]?> €</p>
           <a href="presentation.php" class="card-link">présentation du produit</a>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="carte">
         <div class="card-body">
-          <h5 class="card-title"><?php  echo $products[2]["name"];?> </h5>
-          <h6 class="card-subtitle mb-2 text-muted"><?php  echo $products[2]["category"];?></h6>
+          <h5 class="card-title text-center"><?php  echo $products[2]["name"];?> </h5>
+          <h6 class="card-subtitle mb-2 text-muted text-center"><?php  echo $products[2]["category"];?></h6>
           <p class="card-text"><?php  echo $products[2]["description"];?></p>
           <p><?php echo $products[2]["price"]?> €</p>
           <a href="presentation.php" class="card-link">présentation du produit</a>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="carte">
         <div class="card-body">
-          <h5 class="card-title"><?php  echo $products[3]["name"];?> </h5>
-          <h6 class="card-subtitle mb-2 text-muted"><?php  echo $products[3]["category"];?></h6>
+          <h5 class="card-title text-center"><?php  echo $products[3]["name"];?> </h5>
+          <h6 class="card-subtitle mb-2 text-muted text-center"><?php  echo $products[3]["category"];?></h6>
           <p class="card-text"><?php  echo $products[3]["description"];?></p>
           <p><?php echo $products[3]["price"]?> €</p>
           <a href="presentation.php" class="card-link">présentation du produit</a>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="carte">
         <div class="card-body">
-          <h5 class="card-title"><?php  echo $products[4]["name"];?> </h5>
-          <h6 class="card-subtitle mb-2 text-muted"><?php  echo $products[4]["category"];?></h6>
+          <h5 class="card-title text-center"><?php  echo $products[4]["name"];?> </h5>
+          <h6 class="card-subtitle mb-2 text-muted text-center"><?php  echo $products[4]["category"];?></h6>
           <p class="card-text"><?php  echo $products[4]["description"];?></p>
           <p><?php echo $products[4]["price"]?> €</p>
           <a href="presentation.php" class="card-link">présentation du produit</a>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="carte">
         <div class="card-body">
-          <h5 class="card-title"><?php  echo $products[5]["name"];?> </h5>
-          <h6 class="card-subtitle mb-2 text-muted"><?php  echo $products[5]["category"];?></h6>
+          <h5 class="card-title text-center"><?php  echo $products[5]["name"];?> </h5>
+          <h6 class="card-subtitle mb-2 text-muted text-center"><?php  echo $products[5]["category"];?></h6>
           <p class="card-text"><?php  echo $products[5]["description"];?></p>
           <p><?php echo $products[5]["price"]?> €</p>
           <a href="presentation.php" class="card-link">présentation du produit</a>

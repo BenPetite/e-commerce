@@ -7,7 +7,7 @@
   <title>accueil</title>
   <meta name="description" content="exercice de site e-commerce">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
@@ -18,7 +18,7 @@
 
 <body>
 <!-- HEADER -->
-  <header class="jumbotron text-center">
+  <header class="jumbotron bg-success text-white text-center">
     <h1 class="display-4">site e-commerce</h1>
     <p class="lead">vente de choses par correspondance</p>
   </header>

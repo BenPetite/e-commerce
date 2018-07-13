@@ -7,7 +7,7 @@
   <title>accueil</title>
   <meta name="description" content="exercice de site e-commerce">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
@@ -21,12 +21,12 @@
     <li class="nav-item">
       <a class="nav-link active" href="index.php">accueil</a>
     </li>
-    <li class="nav-item">
+    <!-- <li class="nav-item">
       <a class="nav-link" href="#">Link</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">Link</a>
-    </li>
+    </li> -->
   </ul>
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>

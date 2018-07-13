@@ -7,7 +7,7 @@
   <title>accueil</title>
   <meta name="description" content="exercice de site e-commerce">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
@@ -18,11 +18,11 @@
 
 <body>
 <!-- FOOTER -->
-  <footer class="jumbotron jumbotron-fluid text-center">
+  <footer class="jumbotron jumbotron-fluid text-white bg-success text-center">
     <div class="container">
-      <ul>
+      <ul class="list-unstyled">
         <li>
-          <a href="infos.php">informations du site</a>
+          <a href="infos.php" class="text-light">informations du site</a>
         </li>
       </ul>
     </div>

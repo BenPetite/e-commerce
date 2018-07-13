@@ -96,12 +96,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-/* global classes */
-.catalogue{
-  display: flex;
-  flex-wrap: wrap;
+header{
+  font-family: 'Anton', sans-serif;
 }
+/* global classes */
+
 /* common rules */
 
 /* start nav */
