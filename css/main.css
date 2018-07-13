@@ -98,7 +98,10 @@ textarea {
    ========================================================================== */
 
 /* global classes */
-
+.catalogue{
+  display: flex;
+  flex-wrap: wrap;
+}
 /* common rules */
 
 /* start nav */
