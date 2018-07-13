@@ -1,4 +1,7 @@
-<header>
-  <h1>site e-commerce</h1>
-  <p>vente de choses par correspondance</p>
-</header>
+<div class="jumbotron">
+  <h1 class="display-4">site e-commerce</h1>
+  <p class="lead">vente de choses par correspondance</p>
+  <!-- <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+</div>
